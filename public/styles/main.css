@@ -1,0 +1,64 @@
+
+/*****************************************************
+    DEFAULT STYLE SECTION
+*****************************************************/
+/*****************************************************
+ 1. GENERAL
+ 2. REGISTER
+ 3. MEDIA QUERY
+ *****************************************************/
+
+    body {
+        min-height: 2000px;
+        padding-top: 70px;
+    }
+
+    select{cursor: pointer;}
+    select{font-size:14px;font-weight:normal;line-height:20px;}
+    select{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+    select{display:inline-block;height:20px;padding:4px 6px;margin-bottom:10px;font-size:14px;line-height:20px;color:#555555;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;vertical-align:middle;}
+    select{height:30px;*margin-top:4px;line-height:30px;}
+    select{width:220px;border:1px solid #cccccc;background-color:#ffffff;}
+    select[multiple],select[size]{height:auto;}
+    select:focus{
+        border-color: #66afe9;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+    }
+    select[class*="span"],select[class*="span"]{float:none;margin-left:0;}
+    .row-fluid select[class*="span"]{display:inline-block;}
+    select[disabled], select[readonly]{cursor:not-allowed;background-color:#eeeeee;}
+
+
+/*****************************************************
+    REGISTER
+*****************************************************/
+    .register-container{
+        width: 50%;
+        margin: auto;
+    }
+
+    .register-zones{
+       width: 100% !important;
+       height: 34px;
+    }
+
+
+
+/*****************************************************
+    MEDIA QUERIES
+*****************************************************/
+@media screen and (max-width: 768px){
+    .register-container{
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 462px){
+    .register-container{
+        width: 100%;
+        margin: auto;
+    }
+}
